@@ -12,17 +12,51 @@
       <ul>
         <a href="">Home</a>
         <a href="#menu">Menu</a>
-        <a href="">Order</a>
-        <a href="">Contact Us</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact Us</a>
       </ul>
   </div>
 
   <div id="menu">
+        <h1 style="padding-top: 10px; font-weight: bold; font-family: 'Times New Roman', Times, serif;">MENU</h1>
+        <div class="row">
+            <div class="col-6">
+                <h2>Sizes</h2>
+                    <p>Large - 1000/=</p>
+                    <p>Medium - 700/=</p>
+                    <p>Small - 500/=</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Crust</h2>
+                <p>Each crust goes for 100/=</p>
+                <p>Crispy</p>
+                <p>Stuffy</p>
+                <p>Thin crust</p>
+                <p>Neapolitan crust</li>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Toppings</h2>
+                <h3>Large @ 150/= , Medium @ 100/= , Small @ 50/=</h3>
+                    <p>Bacon</p>
+                    <p>Pepperoni</p>
+                    <p>Pineapple</p>
+                    <p>Extra cheese</p>
+                    <p>Green pepper</p>
+
+            </div>
+        </div>
+  </div>
+
+  <div id="order">
     <div class="jumbotron">
-    <form class="menu">
+        <h2>ORDER HERE:</h2>
+    <form class="order">
         <div class="client-order">
             <label>Select a Size</label>
-            <select class="form-control" id="pizzaSize"> -->
+            <select class="form-control" id="pizzaSize" style="background-color: transparent;">
               <option>Small</option>
               <option>Medium</option>
               <option>Large</option>
@@ -31,7 +65,7 @@
           <br>
           <div class="client-order">
             <label>Select crust</label>
-            <select class="form-control" id="pizzaSize"> -->
+            <select class="form-control" id="pizzaSize" style="background-color: transparent;">
               <option>Crispy</option>
               <option>Stuffy</option>
               <option>Thin crust</option>
@@ -41,7 +75,7 @@
           <br>
         <div class="client-order">
           <label>Select toppings</label>
-          <select class="form-control" id="pizzaSize">
+          <select class="form-control" id="pizzaSize" style="background-color: transparent;">
             <option>Bacon</option>
             <option>Pepperoni</option>
             <option>Pineapple</option>
@@ -51,7 +85,7 @@
         </div>
         <br>
         <br>
-        <button type="submit" name="button" class="secondary">Order</button>
+        <button type="submit" name="button" class="secondary" style="background-color: transparent;color: white;">Order</button>
     </form>
     </div>
   </div>
