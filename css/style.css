@@ -1,0 +1,16 @@
+.nav{
+    background-color:black;
+    width: 500px;
+    margin: 0;
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: darkgray;
+    font-size: x-large;
+    padding: 10px 10px;
+}
+.nav a:hover{
+    background-color: darkgray;
+    color: black;
+}
