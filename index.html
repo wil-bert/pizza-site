@@ -53,44 +53,66 @@
 
   <div id="order">
     <div class="jumbotron">
-        <h2>ORDER HERE:</h2>
-    <form class="order">
-        <div class="client-order">
-            <label>Select a Size</label>
-            <select class="form-control" id="pizzaSize" style="background-color: transparent;">
-              <option>Small</option>
-              <option>Medium</option>
-              <option>Large</option>
-            </select>
-          </div>
-          <br>
-          <div class="client-order">
-            <label>Select crust</label>
-            <select class="form-control" id="pizzaCrust" style="background-color: transparent;">
-              <option>Crispy</option>
-              <option>Stuffy</option>
-              <option>Thin crust</option>
-              <option>Neapolitan crust</option>
-            </select>
-          </div>
-          <br>
-        <div class="client-order">
-          <label>Select toppings</label>
-          <select class="form-control" id="pizzaToppings" style="background-color: transparent;">
-            <option>Bacon</option>
-            <option>Pepperoni</option>
-            <option>Pineapple</option>
-            <option>Extra cheese</option>
-            <option>Green peppers</option>
-          </select>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>ORDER HERE:</h2>
+                <form class="order">
+                <div class="client-order">
+                    <label>Select a Size</label>
+                    <select class="form-control" id="pizzaSize" style="background-color: transparent;">
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                <br>
+                <div class="client-order">
+                    <label>Select crust</label>
+                    <select class="form-control" id="pizzaCrust" style="background-color: transparent;">
+                        <option>Crispy</option>
+                        <option>Stuffy</option>
+                        <option>Thin crust</option>
+                        <option>Neapolitan crust</option>
+                    </select>
+                </div>
+                <br>
+                <div class="client-order">
+                    <label>Select toppings</label>
+                    <select class="form-control" id="pizzaToppings" style="background-color: transparent;">
+                        <option>Bacon</option>
+                        <option>Pepperoni</option>
+                        <option>Pineapple</option>
+                        <option>Extra cheese</option>
+                        <option>Green peppers</option>
+                     </select>
+                </div>
+                <br>
+                <label>No. Of pizzas</label><br>
+                <input type="text" style="background-color: transparent;border-color: white;"><br>
+                <button type="submit" name="order" class="secondary" style="background-color: transparent;color: white;">Order</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>FOR DELIVERY;</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                        <input class="form-control" type="text" name="" id="name" required="required" style="background-color: transparent;"><br>
+                        <label for="location">Location</label>
+                        <input class="form-control" type="text" id="location" style="background-color: transparent;" placeholder="location..."><br>
+                        <label for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="07xxxxxxxx" style="background-color: transparent;" id="number"> <br>
+                        <button type="submit" name="button" id="submit" style="background-color: transparent; color: white;">submit</button>
+                </form>
+            </div>
+            </div>
         </div>
-        <br>
-        <br>
-        <button type="submit" name="button" onclick="" class="secondary" style="background-color: transparent;color: white;">Order</button>
-        <button type="deliver" name="deliver" onclick="" class="secondary">Delivery</button>
-    </form>
     </div>
   </div>
+
+  <div id="result">
+    <p></p>
+  </div>
+
 
   <div id="#contact">
     <div class="container">
