@@ -88,8 +88,8 @@
                 </div>
                 <br>
                 <label>No. Of pizzas</label><br>
-                <input type="text" style="background-color: transparent;border-color: white;"><br>
-                <button type="submit" name="order" class="secondary" style="background-color: transparent;color: white;">Order</button>
+                <input type="text" id="number" style="background-color: transparent;border-color: white;"><br>
+                <button type="submit" name="order" onclick="Pizza()" class="secondary" style="background-color: transparent;color: white;">Order</button>
                 </form>
             </div>
             <div class="col-md-6">
@@ -100,7 +100,7 @@
                         <label for="location">Location</label>
                         <input class="form-control" type="text" id="location" style="background-color: transparent;" placeholder="location..."><br>
                         <label for="phonenumber">Phone Number</label>
-                        <input class="form-control" type="tel" placeholder="07xxxxxxxx" style="background-color: transparent;" id="number"> <br>
+                        <input class="form-control" type="tel" id="tel" placeholder="07xxxxxxxx" style="background-color: transparent;" id="number"> <br>
                         <button type="submit" name="button" id="submit" style="background-color: transparent; color: white;">submit</button>
                 </form>
             </div>
