@@ -21,11 +21,12 @@
     background-image: url(../images/img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
-    color: beige;
+    height: 115vh;
+    color:black;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    font-size: large;
 }
 p{
     font-size: larger;
