@@ -1,4 +1,16 @@
+function sizeCost(){
+    var selectSize = document.getElementById("pizzaSize").value;
+    return parseInt(selectSize);
+}
 
+function crustCost(){
+    var selectCrust = document.getElementById("pizzaCrust").value;
+    return parseInt(selectCrust);
+}
+
+function toppingsCost(){
+    var selectToppings = document.getElementById("pizzaToppings").value;
+}
 
 $(document).ready(function () {
     $("#delivery").submit(function () {
