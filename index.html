@@ -79,17 +79,17 @@
                 <div class="client-order">
                     <label>Select toppings</label>
                     <select class="form-control" id="pizzaToppings" style="background-color: transparent;">
-                        <option>Bacon (@50 for small, @100 for medium, @150 for large)</option>
-                        <option>Pepperoni (@50 for small, @100 for medium, @150 for large)</option>
-                        <option>Pineapple (@50 for small, @100 for medium, @150 for large)</option>
-                        <option>Extra cheese (@50 for small, @100 for medium, @150 for large)</option>
-                        <option>Green peppers (@50 for small, @100 for medium, @150 for large)</option>
+                        <option value="50">Bacon (@50 for small, @100 for medium, @150 for large)</option>
+                        <option value="50">Pepperoni (@50 for small, @100 for medium, @150 for large)</option>
+                        <option value="50">Pineapple (@50 for small, @100 for medium, @150 for large)</option>
+                        <option value="50">Extra cheese (@50 for small, @100 for medium, @150 for large)</option>
+                        <option value="50">Green peppers (@50 for small, @100 for medium, @150 for large)</option>
                      </select>
                 </div>
                 <br>
                 <label>No. Of pizzas</label><br>
                 <input type="number" id="number1" style="background-color: transparent;border-color: white;"><br>
-                <button type="submit" name="order" class="secondary" onclick="" style="background-color: transparent;color: white;">Order</button>
+                <button type="submit" name="order" class="secondary" onclick="calculateTotal()" style="background-color: transparent;color: white;">Order</button>
                 </form>
             </div>
             <div class="col-md-6">

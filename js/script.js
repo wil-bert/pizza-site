@@ -4,18 +4,24 @@ function sizePrice(){
 }
 
 function crustPrice(){
-    var number = document.getElementById("number1").value;
-    return parseInt(number);
-}
-
-function number(){
     var selectCrust = document.getElementById("pizzaCrust").value;
     return parseInt(selectCrust);
 }
 
-function calulateTotal(){
-    event.preventDefault();
+function toppingsPrice(){
+    var selectToppings = document.getElementById("pizzaToppings").value;
+    return selectToppings;
+}
 
+function number(){
+    var number = document.getElementById("number1").value;
+    return parseInt(number);
+}
+
+function calculateTotal(){
+    event.preventDefault();
+    var total = ((sizePrice() + crustPrice()) * number());
+    alert(total);
 }
 
 
