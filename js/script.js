@@ -1,16 +1,23 @@
-function sizeCost(){
+function sizePrice(){
     var selectSize = document.getElementById("pizzaSize").value;
     return parseInt(selectSize);
 }
 
-function crustCost(){
+function crustPrice(){
+    var number = document.getElementById("number1").value;
+    return parseInt(number);
+}
+
+function number(){
     var selectCrust = document.getElementById("pizzaCrust").value;
     return parseInt(selectCrust);
 }
 
-function toppingsCost(){
-    var selectToppings = document.getElementById("pizzaToppings").value;
+function calulateTotal(){
+    event.preventDefault();
+
 }
+
 
 $(document).ready(function () {
     $("#delivery").submit(function () {
