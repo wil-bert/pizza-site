@@ -1,7 +1,7 @@
 
 
 $(document).ready(function () {
-    $("#order").submit(function () {
+    $("#delivery").submit(function () {
 
         var name = $("input#name").val();
         var tel = $("input#tel").val();
