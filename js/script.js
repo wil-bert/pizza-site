@@ -36,3 +36,12 @@ $(document).ready(function () {
     });
 
 });
+
+$(document).ready(function(){
+    $("#checkout").checkout(function(){
+
+        var checkout = (calculateTotal() + 200);
+        alert("Your total pay is " + checkout);
+
+    });
+});
